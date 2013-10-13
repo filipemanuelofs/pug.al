@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
     <title>pug.al</title>
 
@@ -17,17 +16,26 @@
 
     <!-- Custom styles for this template -->
     <style type="text/css">
-    body {padding-top: 30px;}
     .navbar {margin-bottom: 30px;}
     </style>
     <script type="text/javascript" src="http://sawpf.com/1.0.js"></script>
 </head>
 
 <body>
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="navbar-collapse collapse">
+            <a class="navbar-brand" href="/">Python Users Group Alagoas</a>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">sob<strong>re.</strong></a></li>
+                <li><a href="#">con<strong>tato.</strong></a></li>
+                <li><a href="#">git<strong>hub!</strong></a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+
     <div id="wrap">
         <div class="container">
 
-    
           <div class="navbar navbar-inverse">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -41,35 +49,29 @@
             <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-align-justify"></span> pale<strong>stras.</strong> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#"><span class="glyphicon glyphicon-file"></span> &nbsp;submeter pale<strong>stra</strong></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-file"></span> submeter pale<strong>stra</strong></a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-folder-open"></span> &nbsp;palestras ante<strong>riores</strong></a></li>
             </ul>
         </li>
         <li><a href="#"><span class="glyphicon glyphicon-align-justify"></span> even<strong>tos.</strong></a></li>
         <li><a href="#"><span class="glyphicon glyphicon-align-justify"></span> notí<strong>cias.</strong></a></li>
     </ul>
-        </div><!--/.nav-collapse -->
+</div><!--/.nav-collapse -->
 </div>
 
 <!-- Main component for a primary marketing message or call to action -->
 
 </div> <!-- /container -->
 </div> <!-- /wrap -->
-
+<br><br>
 <div id="footer">
   <div class="container">
     <div class="row">
-        <div class="col-md-2">
-            <p class="text-muted credit">&copy; 2013 - <strong>pug.al</strong></p>
-        </div>
         <div class="col-md-3">
-            <p class="text-muted credit"> <img src="{{ STATIC_URL }}img/icons/ic_python.png"> <a href="http://www.python.org/dev/peps/pep-0020/" target="_blank"><strong>zen</strong> of python</p></a>
+            <p class="text-muted credit"><img src="{{ STATIC_URL }}img/icons/ic_python.png"> <a href="http://www.python.org/dev/peps/pep-0020/" target="_blank"><strong>zen</strong> of python</a></p>
         </div>
-        <div class="col-md-3">
-            <p class="text-muted credit"> <span class="glyphicon glyphicon-user"></span> faça parte!</p></a>
-        </div>
-        <div class="col-md-3">
-            <p class="text-muted credit"> <img src="{{ STATIC_URL }}img/icons/python-powered-w-100x40.png"> </p>
+        <div class="col-md-3 pull-right">
+            <p class="text-muted credit pull-right"><img src="{{ STATIC_URL }}img/icons/python-powered-w-100x40.png"></p>
         </div>
     </div>
 </div>
